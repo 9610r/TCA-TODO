@@ -15,6 +15,7 @@ struct TCA_TODOApp: App {
             TopView(
                 store: Store(initialState: Todos.State()) {
                     Todos()
+                    
                 }
             )
         }
