@@ -1,0 +1,31 @@
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+.idea/
+Pods/
+
+# bundler
+.bundle
+vendor/bundle
+
+# dotenv
+.env
+
+!TCA-TODO/**/Profile
+!Domain/Profile
+!DomainTests/Profile
+!Infrastructure/Profile
+!InfrastructureTests/Profile
+!Application/Profile
+!ApplicationTests/Profile

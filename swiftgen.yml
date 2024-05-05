@@ -1,0 +1,16 @@
+input_dir: TCA-TODO/Resource
+output_dir: TCA-TODO/Generated/
+
+strings:
+  inputs: ja.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: L10n-Constants.swift
+
+xcassets:
+  - inputs:
+      - Colors.xcassets
+      - Images.xcassets
+    outputs:
+      - templateName: swift5
+        output: Assets-Constants.swift
